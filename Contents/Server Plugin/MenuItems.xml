@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<MenuItems>
+    <MenuItem id="createKeys">
+        <Name>Create API Keys</Name>
+        <CallbackMethod>createKeys</CallbackMethod>
+    </MenuItem>
+    <MenuItem id="visitAPI">
+        <Name>Visit API Documentation</Name>
+        <CallbackMethod>visitAPI</CallbackMethod>
+    </MenuItem>
+</MenuItems>

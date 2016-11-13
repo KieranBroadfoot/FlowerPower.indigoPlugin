@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<PluginConfig>
+	<Field id="myLabel" type="label" fontSize="small" fontColor="darkgray">
+		<Label>Enter your Parrot Flower Power user and password combination plus API credentials (generated from the "create API Key menu").</Label>
+	</Field>
+	<Field id="username" type="textfield" defaultValue="">
+		<Label>Username:</Label>
+	</Field>
+	<Field id="password" type="textfield" defaultValue="">
+		<Label>Password:</Label>
+	</Field>
+	<Field id="accessID" type="textfield" defaultValue="">
+		<Label>Access ID:</Label>
+	</Field>
+	<Field id="accessSecret" type="textfield" defaultValue="">
+		<Label>Access Secret:</Label>
+	</Field>
+</PluginConfig>

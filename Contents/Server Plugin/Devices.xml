@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Devices>
+    <Device type="custom" id="FlowerPowerSensor">
+        <Name>Parrot Flower Power Sensor</Name>
+        <UiDisplayStateId>state</UiDisplayStateId>
+        <States>
+            <State id="state">
+                <ValueType>
+                    <List>
+                        <Option value="active">Active</Option>
+                        <Option value="inactive">Inactive</Option>
+                    </List>
+                </ValueType>
+                <TriggerLabel>Flower Power Status Changed</TriggerLabel>
+                <TriggerLabelPrefix>Flower Power Sensor Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Current State</ControlPageLabel>
+                <ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+            </State>
+            <State id="temperatureValue">
+                <ValueType>Number</ValueType>
+                <TriggerLabel>Air Temperature (C) Value Changed</TriggerLabel>
+                <TriggerLabelPrefix>Air Temperature (C) Value Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Air Temperature (C) Value</ControlPageLabel>
+                <ControlPageLabelPrefix>Air Temperature (C) Value is</ControlPageLabelPrefix>
+            </State>
+            <State id="lightValue">
+                <ValueType>Number</ValueType>
+                <TriggerLabel>Light (PAR) Changed</TriggerLabel>
+                <TriggerLabelPrefix>Light (PAR) Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Light (PAR) State</ControlPageLabel>
+                <ControlPageLabelPrefix>Light (PAR) State is</ControlPageLabelPrefix>
+            </State>
+            <State id="fertilizerValue">
+                <ValueType>String</ValueType>
+                <TriggerLabel>Fertilizer (mS/cm) Status Changed</TriggerLabel>
+                <TriggerLabelPrefix>Fertilizer (mS/cm) Status Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Fertilizer (mS/cm) State</ControlPageLabel>
+                <ControlPageLabelPrefix>Fertilizer (mS/cm) State is</ControlPageLabelPrefix>
+            </State>
+            <State id="soilMoistureValue">
+                <ValueType>String</ValueType>
+                <TriggerLabel>Soil Moisture (%) Status Changed</TriggerLabel>
+                <TriggerLabelPrefix>Soil Moisture (%) Status Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Soil Moisture (%) State</ControlPageLabel>
+                <ControlPageLabelPrefix>Soil Moisture (%) State is</ControlPageLabelPrefix>
+            </State>
+            <State id="temperatureInstruction">
+                <ValueType>
+                    <List>
+                        <Option value="too_low">Too Low</Option>
+                        <Option value="good">Good</Option>
+                        <Option value="too_high">Too High</Option>
+                    </List>
+                </ValueType>
+                <TriggerLabel>Air Temperature Instruction Changed</TriggerLabel>
+                <TriggerLabelPrefix>Air Temperature Instruction Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Air Temperature Instruction</ControlPageLabel>
+                <ControlPageLabelPrefix>Air Temperature Instruction is</ControlPageLabelPrefix>
+            </State>
+            <State id="lightInstruction">
+                <ValueType>
+                    <List>
+                        <Option value="too_low">Too Low</Option>
+                        <Option value="good">Good</Option>
+                        <Option value="too_high">Too High</Option>
+                    </List>
+                </ValueType>
+                <TriggerLabel>Light Instruction Changed</TriggerLabel>
+                <TriggerLabelPrefix>Light Instruction Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Light Instruction</ControlPageLabel>
+                <ControlPageLabelPrefix>Light Instruction is</ControlPageLabelPrefix>
+            </State>
+            <State id="fertilizerInstruction">
+                <ValueType>
+                    <List>
+                        <Option value="too_low">Too Low</Option>
+                        <Option value="good">Good</Option>
+                        <Option value="too_high">Too High</Option>
+                    </List>
+                </ValueType>
+                <TriggerLabel>Fertilizer Instruction Changed</TriggerLabel>
+                <TriggerLabelPrefix>Fertilizer Instruction Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Fertilizer Instruction</ControlPageLabel>
+                <ControlPageLabelPrefix>Fertilizer Instruction is</ControlPageLabelPrefix>
+            </State>
+            <State id="soilMoistureInstruction">
+                <ValueType>
+                    <List>
+                        <Option value="too_low">Too Low</Option>
+                        <Option value="good">Good</Option>
+                        <Option value="too_high">Too High</Option>
+                    </List>
+                </ValueType>
+                <TriggerLabel>Soil Moisture Instruction Changed</TriggerLabel>
+                <TriggerLabelPrefix>Soil Moisture Instruction Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Soil Moisture Instruction</ControlPageLabel>
+                <ControlPageLabelPrefix>Soil Moisture Instruction is</ControlPageLabelPrefix>
+            </State>
+            <State id="locationIdentifier">
+                <ValueType>String</ValueType>
+                <TriggerLabel>Location ID Changed</TriggerLabel>
+                <TriggerLabelPrefix>Location ID Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Location ID</ControlPageLabel>
+                <ControlPageLabelPrefix>Location ID is</ControlPageLabelPrefix>
+            </State>
+            <State id="sensorType">
+                <ValueType>String</ValueType>
+                <TriggerLabel>Sensor Type Changed</TriggerLabel>
+                <TriggerLabelPrefix>Sensor Type Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Sensor Type</ControlPageLabel>
+                <ControlPageLabelPrefix>Sensor Type is</ControlPageLabelPrefix>
+            </State>
+            <State id="batteryLevel">
+                <ValueType>Number</ValueType>
+                <TriggerLabel>Battery Level Changed</TriggerLabel>
+                <TriggerLabelPrefix>Battery Level Status Changed to</TriggerLabelPrefix>
+                <ControlPageLabel>Battery Level State</ControlPageLabel>
+                <ControlPageLabelPrefix>Battery Level State is</ControlPageLabelPrefix>
+            </State>
+        </States>
+    </Device>
+</Devices>
