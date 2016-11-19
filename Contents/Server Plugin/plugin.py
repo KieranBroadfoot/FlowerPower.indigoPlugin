@@ -111,6 +111,10 @@ class Plugin(indigo.PluginBase):
                 return "good"
         if "too_high" in input:
             return "too_high"
+        # the latest API appears to provide a prediction as an instruction status (above and beyond xxx_good etc)
+        # as a temporary stop-gap we'll presume a prediction indicates we are within reasonable bounds for the given plant
+        if "prediction" in input:
+            return "good"
         self.logger.warn("received unknown response from cloud: "+input)
         return ""
 
