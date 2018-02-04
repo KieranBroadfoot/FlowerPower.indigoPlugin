@@ -50,6 +50,8 @@
                         <Option value="too_low">Too Low</Option>
                         <Option value="good">Good</Option>
                         <Option value="too_high">Too High</Option>
+                        <Option value="not_available">Not Available</Option>
+                        <Option value="not_ready">Not Ready</Option>
                     </List>
                 </ValueType>
                 <TriggerLabel>Air Temperature Instruction Changed</TriggerLabel>
@@ -63,6 +65,8 @@
                         <Option value="too_low">Too Low</Option>
                         <Option value="good">Good</Option>
                         <Option value="too_high">Too High</Option>
+                        <Option value="not_available">Not Available</Option>
+                        <Option value="not_ready">Not Ready</Option>
                     </List>
                 </ValueType>
                 <TriggerLabel>Light Instruction Changed</TriggerLabel>
@@ -76,6 +80,8 @@
                         <Option value="too_low">Too Low</Option>
                         <Option value="good">Good</Option>
                         <Option value="too_high">Too High</Option>
+                        <Option value="not_available">Not Available</Option>
+                        <Option value="not_ready">Not Ready</Option>
                     </List>
                 </ValueType>
                 <TriggerLabel>Fertilizer Instruction Changed</TriggerLabel>
@@ -89,6 +95,8 @@
                         <Option value="too_low">Too Low</Option>
                         <Option value="good">Good</Option>
                         <Option value="too_high">Too High</Option>
+                        <Option value="not_available">Not Available</Option>
+                        <Option value="not_ready">Not Ready</Option>
                     </List>
                 </ValueType>
                 <TriggerLabel>Soil Moisture Instruction Changed</TriggerLabel>
